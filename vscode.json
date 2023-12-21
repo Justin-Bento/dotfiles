@@ -3,7 +3,11 @@
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontSize": 15,
     "editor.minimap.enabled": false,
+    // Changing The Workbench Apperance
     "workbench.colorTheme": "GitHub Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.saturation": 0.5,
     "editor.renderWhitespace": "all",
     // Code For Ruby Syntaxing
     "[ruby]": {

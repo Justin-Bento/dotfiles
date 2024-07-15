@@ -7,17 +7,15 @@ alias gcl='git clone'; __git_complete gcl _git_clone
 # git pull / git push
 alias gpl='git pull';                   __git_complete gpl   _git_pull
 alias gplr='git pull --rebase';         __git_complete gplr  _git_pull
-alias gplum='git pull upstream master'
-
+alias gplum='git pull upstream main'
 alias gpu='git push';                 __git_complete gpu   _git_push
 alias gput='git push --tags';         __git_complete gput  _git_push
-alias gpuf='git push --force';        __git_complete gpuf  _git_push
 alias gpuu='git push --set-upstream'; __git_complete gpuu  _git_push
 alias gpuo='git push origin'
-alias gpuom='git push origin master'
+alias gpuom='git push origin main'
 alias gpuar='git remote | xargs -L1 git push'
 
-alias gpp='git pull && git push'
+alias gpp='git pull origin main'
 
 # git fetch
 alias gf='git fetch --all --prune';                    __git_complete gf   _git_fetch
@@ -67,7 +65,7 @@ alias gclean='git clean -d --force'
 
 # git branch
 alias gb='git branch';                     __git_complete gb    _git_branch
-alias gba='git branch --all';              __git_complete gba   _git_branch
+alias gba=s'git branch --all';              __git_complete gba   _git_branch
 alias gbt='git branch --track';            __git_complete gbt   _git_branch
 alias gbm='git branch --move';             __git_complete gbm   _git_branch
 alias gbdel='git branch --delete --force'; __git_complete gbdel _git_branch

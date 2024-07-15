@@ -3,13 +3,8 @@
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontSize": 15,
     "editor.minimap.enabled": false,
-    // Changing The Workbench Apperance
     "workbench.colorTheme": "GitHub Dark",
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.folders.theme": "specific",
-    "material-icon-theme.saturation": 0.5,
     "editor.renderWhitespace": "all",
-    // Code For Ruby Syntaxing
     "[ruby]": {
         "editor.defaultFormatter": "Shopify.ruby-lsp",
         "editor.formatOnSave": true,
@@ -24,6 +19,15 @@
         ],
         "editor.semanticHighlighting.enabled": true
     },
+    "[php]": {
+        "editor.tabSize": 2,
+        "editor.rulers": [
+            120
+        ]
+    },
+    "files.associations": {
+        "*.html.erb": "html"
+     },     
     "prettier.printWidth": 140,
     "prettier.tabWidth": 2,
     "prettier.useTabs": false,
@@ -50,4 +54,9 @@
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "workbench.sideBar.location": "right",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true
 }

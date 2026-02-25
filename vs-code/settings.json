@@ -1,0 +1,28 @@
+{
+  "workbench.colorTheme": "Default High Contrast",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": 0,
+  "editor.wordWrapColumn": 100,
+  "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', monospace",
+  "editor.cursorStyle": "line",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.ignoreRebaseWarning": true,
+  "editor.stickyScroll.enabled": false
+}

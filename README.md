@@ -1,3 +1,10 @@
-# My NeoVim Configuration Guide 
+# Dotfiles
 
-I followed [this article by brandon wallace](https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/) to help me get started with sensable defaults. Over time I have progressively customized Neovim configuration to create a tailored development environment that matches my exact workflow preferences.
+This repository purpose is to contain my personal configuration files for Vim and VS Code, ensuring I have a consistent development experience across all operating systems.
+
+- `vim/vimrc` – My Vim configuration
+- `vscode/settings.json` – VS Code user settings
+
+## Acknowledgements
+
+Big thanks to [Brandon Wallace](https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/) for helping me get started with my vim configuration.
